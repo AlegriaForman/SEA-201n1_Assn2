@@ -44,11 +44,21 @@ var aboutMe3 = prompt('I was once detained by the Secret Service in Disneyland, 
     console.log('You are incorrect.');
   }
 
-if (guess === 4) {
-  alert("You guessed " + guess + " out of 4! Way to go!");
+  var aboutMe5 = prompt('Van Gogh painted The Starry Night with Paul Gaugauin in Britanny, Yes or No');
+  if ((aboutMe5.toUpperCase() === 'NO') || (aboutMe5.toUpperCase() === 'N')) {
+    alert('That is correct. Van Gogh created his most famous work The Starry Night while staying in an asylum in Saint-Remy-de-Provence, France.');
+    guess += 1;
+    console.log('You are correct.');
+  } else {
+    alert('Sorry. Van Gogh created his most famous work The Starry Night while staying in an asylum in Saint-Remy-de-Provence, France.');
+    console.log('You are incorrect.');
+  }
+
+if (guess === 5 || guess === 4) {
+  alert("You guessed " + guess + " out of 5! Way to go!");
 } else if (guess === 3 || guess === 2){
-  alert("You guessed " + guess + " out of 4! Not bad.");
+  alert("You guessed " + guess + " out of 5! Not bad.");
 } else {
-  alert("You guessed " + guess + " out of 4! Nice try, you should have an adventure with me.");
+  alert("You guessed " + guess + " out of 5! Nice try, you should have an adventure with me.");
 }
 }
