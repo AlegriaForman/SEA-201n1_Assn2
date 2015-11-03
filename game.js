@@ -34,11 +34,21 @@ var aboutMe3 = prompt('I was once detained by the Secret Service in Disneyland, 
     console.log('You are incorrect.');
   }
 
-if (guess === 3) {
-  alert("You guessed " + guess + " out of 3! Way to go!");
-} else if (guess === 2){
-  alert("You guessed " + guess + " out of 3! Not bad.");
+  var aboutMe4 = prompt('Oscar Wilde has published five novels before he died, Yes or No');
+  if ((aboutMe4.toUpperCase() === 'NO') || (aboutMe4.toUpperCase() === 'N')) {
+    alert('That is correct. Though thought of as an author, he only published one novel, The Portait of Dorian Gray (1891).');
+    guess += 1;
+    console.log('You are correct.');
+  } else {
+    alert('Sorry. Though thought of as an author, he only published one novel, The Portait of Dorian Gray (1891).');
+    console.log('You are incorrect.');
+  }
+
+if (guess === 4) {
+  alert("You guessed " + guess + " out of 4! Way to go!");
+} else if (guess === 3 || guess === 2){
+  alert("You guessed " + guess + " out of 4! Not bad.");
 } else {
-  alert("You guessed " + guess + " out of 3! Nice try, you should have an adventure with me.");
+  alert("You guessed " + guess + " out of 4! Nice try, you should have an adventure with me.");
 }
 }
