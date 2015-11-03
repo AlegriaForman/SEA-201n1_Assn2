@@ -10,3 +10,7 @@ by Ali Forman
 201 Class - CodeFellows
 Nov. 2, 2015
 
+Bonus - Programming Jokes
+
+Algorithm (noun) - Word used by prgrammers when they do not want to explain what they did.
+
