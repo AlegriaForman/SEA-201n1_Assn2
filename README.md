@@ -14,3 +14,10 @@ Bonus - Programming Jokes
 
 Algorithm (noun) - Word used by prgrammers when they do not want to explain what they did.
 
+Pair Programming Driver: Tim Forman, Navigator: Ali Forman
+
+Changes made:
+Put questions and answers into arrays.
+Created counter in document using:
+'''guess += 1;
+document.getElementById('score').innerHTML = guess;'''
